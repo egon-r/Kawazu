@@ -17,6 +17,6 @@ jobs:
         working-directory: ./Kawazu
         run: |
           dotnet nuget add source --username egon-r --password ${{ secrets.GITHUB_TOKEN }} --store-password-in-clear-text --name github "https://nuget.pkg.github.com/egon-r/index.json"
-          nuget restore Kawazu.csproj
+          dotnet restore
           dotnet build --configuration Release
           ls .
