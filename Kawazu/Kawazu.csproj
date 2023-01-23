@@ -17,8 +17,11 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="LibNMeCab" Version="0.10.1" />
-      <PackageReference Include="LibNMeCab.IpaDicBin" Version="0.10.0" />
         <None Include="Kawazu_icon.png" Pack="true" PackagePath="" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="LibNMeCab" Version="0.10.3" />
+      <PackageReference Include="LibNMeCab.IpaDicBin" Version="0.10.0" />
     </ItemGroup>
 </Project>
