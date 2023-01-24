@@ -11,8 +11,8 @@
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <AssemblyVersion>1.1.5</AssemblyVersion>
         <Copyright>© Cutano 2020</Copyright>
-        <PackageProjectUrl>https://github.com/Cutano/Kawazu</PackageProjectUrl>
-        <RepositoryUrl>https://github.com/Cutano/Kawazu</RepositoryUrl>
+        <PackageProjectUrl>https://github.com/egon-r/Kawazu</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/egon-r/Kawazu</RepositoryUrl>
         <PackageIcon>Kawazu_icon.png</PackageIcon>
     </PropertyGroup>
 
